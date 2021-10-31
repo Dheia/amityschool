@@ -1,0 +1,10 @@
+columns:
+    is_active:
+        label: 'acte.carousel::lang.is_active'
+        type: text
+    sort_order:
+        label: 'acte.carousel::lang.sort_order'
+        type: number
+    title:
+        label: 'acte.carousel::lang.title'
+        type: text

@@ -1,0 +1,105 @@
+{% set records=__SELF__.records %}
+
+
+{% if __SELF__.property('textWhite') %}
+  {% set textWhite = "text-white" %}
+{% else %}
+  {% set textWhite = "" %}
+{% endif %}
+
+
+{% set maskActivate = __SELF__.property('maskActivate') %}
+{% set maskColor = __SELF__.property('maskColor') %}
+{% set maskIntensity = __SELF__.property('maskIntensity') %}
+
+{% set imageThumbWidth = __SELF__.property('imageThumbWidth') %}
+{% set imageThumbHeight = __SELF__.property('imageThumbHeight') %}
+{% set imageThumbMode = __SELF__.property('imageThumbMode') %}
+{% set imageThumbQuality = __SELF__.property('imageThumbQuality') %}
+
+
+{% put styles %}
+<style>
+    /* Necessary for full page carousel*/
+    html,
+    body,
+    .view {
+      height: 100%;
+    }
+
+    /* Carousel*/
+    .carousel,
+    .carousel-item,
+    .carousel-item.active {
+      height: 100%;
+    }
+    .carousel-inner {
+      height: 100%;
+    }
+
+    {% for record in records %}
+    .carousel-item:nth-child({{ loop.index }}) {
+      background-image: url("{{ record.img.thumb(imageThumbWidth, imageThumbHeight, { 'mode': imageThumbMode, 'quality': imageThumbQuality } ) }}");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+    }
+    {% endfor %}
+
+</style>
+{% endput %}
+
+
+<!--Carousel Wrapper-->
+<div id="full-page-carousel" class="carousel slide carousel-fade z-depth-1" data-ride="carousel" data-interval="false">
+
+  <!--Indicators-->
+  <ol class="carousel-indicators">
+    {% for record in records %}
+    <li data-target="#full-page-carousel" data-slide-to="{{ loop.index0 }}" {% if loop.first %}class="active"{% endif %}></li>
+    {% endfor %}
+  </ol>
+  <!--/.Indicators-->
+
+  <!--Slides-->
+  <div class="carousel-inner" role="listbox">
+    {% for record in records %}
+    <div class="carousel-item {% if loop.first %}active{% endif %}">
+      <div class="view">
+        <div class="full-bg-img flex-center">
+        {% if maskActivate %}<div class="mask rgba-{{ maskColor }}-{{ maskIntensity }}"></div>{% endif %}
+          <ul class="col-md-12 list-unstyled list-inline">
+            <li>
+              <h1 class="font-weight-bold text-uppercase {{ textWhite }}">{{ record.title }}</h1>
+              <p class="lead {{ textWhite }}">{{ record.lead }}</p>
+              <p class="{{ textWhite }}">{{ record.text }}</p>
+              {% if record.link_name %}
+              <a class="btn btn-primary" href="{{ record.link }}">{{ record.link_name }}</a>
+              {% endif %}
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  <!--/.Slides-->
+
+
+  <!--Controls-->
+  <a class="carousel-control-prev" href="#full-page-carousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#full-page-carousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+  <!--/.Controls-->
+</div>
+<!--/.Carousel Wrapper-->
+
+
+{% put scripts %}
+    <script>$('#full-page-carousel').carousel()</script>
+{% endput %}

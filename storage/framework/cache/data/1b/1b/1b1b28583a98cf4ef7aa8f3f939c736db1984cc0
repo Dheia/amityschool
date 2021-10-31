@@ -1,0 +1,1 @@
+1635672034a:1:{s:6:"scopes";a:1:{s:10:"created_at";a:3:{s:5:"label";s:35:"backend::lang.access_log.created_at";s:4:"type";s:9:"daterange";s:10:"conditions";s:50:"created_at >= ':after' AND created_at <= ':before'";}}}

@@ -1,0 +1,118 @@
+<?php
+   use Backend\Helpers\Backend;
+   $b = new Backend;
+   ?>
+
+<style>
+   .for-info {
+    background-color: #f7f7b9;
+    height: 45px;
+    padding: 5px;
+    border-radius: 5pz;
+    border-color: #cccccc;
+    border-width: 1px;
+    border-style: solid;
+}
+#p-isok p, #p-isnotok p {
+    text-align: right;
+}
+
+</style>
+
+<div class="for-info">
+
+<div class="form-group  text-field span-left">
+   <button id="ins-check-button" type="button" onclick="testConnection()"   data-load-indicator="Check..." class="btn btn-primary" data-disposable="">
+   Check authentication data                
+   </button>
+</div>
+
+<div class="form-group  text-field span-right">
+   <div id="p-isok" style="display: none;">
+      <p>
+         <strong>
+         Connection is ok!
+         </strong> 
+         <svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="24" width="24" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+            <g transform="translate(0 -1028.4)">
+               <path d="m22 12c0 5.523-4.477 10-10 10-5.5228 0-10-4.477-10-10 0-5.5228 4.4772-10 10-10 5.523 0 10 4.4772 10 10z" transform="translate(0 1029.4)" fill="#27ae60"/>
+               <path d="m22 12c0 5.523-4.477 10-10 10-5.5228 0-10-4.477-10-10 0-5.5228 4.4772-10 10-10 5.523 0 10 4.4772 10 10z" transform="translate(0 1028.4)" fill="#2ecc71"/>
+               <path d="m16 1037.4-6 6-2.5-2.5-2.125 2.1 2.5 2.5 2 2 0.125 0.1 8.125-8.1-2.125-2.1z" fill="#27ae60"/>
+               <path d="m16 1036.4-6 6-2.5-2.5-2.125 2.1 2.5 2.5 2 2 0.125 0.1 8.125-8.1-2.125-2.1z" fill="#ecf0f1"/>
+            </g>
+         </svg>
+      </p>
+   </div>
+   <div id="p-isnotok" style="display: none;">
+      <p>
+         <strong>
+         Connection is not ok(:
+         </strong> 
+         <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" height="24" width="24"  xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            viewBox="0 0 426.667 426.667" style="enable-background:new 0 0 426.667 426.667;" xml:space="preserve">
+            <path style="fill:#F05228;" d="M213.333,0C95.514,0,0,95.514,0,213.333s95.514,213.333,213.333,213.333
+               s213.333-95.514,213.333-213.333S331.153,0,213.333,0z M330.995,276.689l-54.302,54.306l-63.36-63.356l-63.36,63.36l-54.302-54.31
+               l63.356-63.356l-63.356-63.36l54.302-54.302l63.36,63.356l63.36-63.356l54.302,54.302l-63.356,63.36L330.995,276.689z"/>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+         </svg>
+      </p>
+   </div>
+</div>
+</div>
+
+<script type="text/javascript">
+   function testConnection() {
+   
+   		$('#ins-check-button').prop('disabled', true);
+   
+   	$('#p-isok').hide();
+    			$('#p-isnotok').hide();
+   
+   
+    			$.ajax({
+      url: "<?=$b->url('pkurg/instagramgallery/instagramfeed/checkconnection');?>",
+      dataType: 'json',
+      type: 'GET',
+      async: true,
+      data: { login: $('#Form-field-Settings-login').val(), pass: $('#Form-field-Settings-pass').val() },
+      statusCode: {
+          404: function (response) {
+            
+              
+          },
+          200: function (response) {
+              
+              	if (response) {
+   				
+   				$('#p-isok').show();
+   
+   			}   else {
+   				$('#p-isnotok').show();
+   			} 			
+      			
+      				$('#ins-check-button').prop('disabled', false);
+          }
+      },
+      error: function (jqXHR, status, errorThrown) {
+         // alert('error');
+         $('#p-isnotok').show();
+         $('#ins-check-button').prop('disabled', false);
+      }
+   });
+      
+   	}
+</script>

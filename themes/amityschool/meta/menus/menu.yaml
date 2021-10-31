@@ -1,0 +1,328 @@
+items:
+    -
+        title: ABOUT
+        nesting: null
+        type: url
+        url: '#'
+        code: ''
+        reference: null
+        cmsPage: null
+        replace: null
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+        items:
+            -
+                title: 'Mission & Philosophy'
+                nesting: 0
+                type: static-page
+                url: null
+                code: ''
+                reference: mission-philosophy
+                cmsPage: null
+                replace: 0
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: 'Amity at Glance'
+                nesting: 0
+                type: static-page
+                url: null
+                code: ''
+                reference: amity-glance
+                cmsPage: null
+                replace: 0
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: 'COVID-19 Response'
+                nesting: 0
+                type: static-page
+                url: null
+                code: ''
+                reference: covid-19-response
+                cmsPage: null
+                replace: 0
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: Calendar
+                nesting: 0
+                type: static-page
+                url: null
+                code: ''
+                reference: calendar
+                cmsPage: null
+                replace: 0
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: 'Employment Opportunities'
+                nesting: 0
+                type: static-page
+                url: null
+                code: ''
+                reference: employment-opportunities
+                cmsPage: null
+                replace: 0
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: 'Faculty & Staff Directory'
+                nesting: 0
+                type: static-page
+                url: null
+                code: ''
+                reference: about-faculty-staff-directory
+                cmsPage: null
+                replace: 0
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: 'Photo Gallery'
+                nesting: 0
+                type: static-page
+                url: null
+                code: ''
+                reference: about-photo-gallery
+                cmsPage: null
+                replace: 0
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: 'Video Gallery'
+                nesting: 0
+                type: static-page
+                url: null
+                code: ''
+                reference: about-video-gallery
+                cmsPage: null
+                replace: 0
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: Contact
+                nesting: 0
+                type: static-page
+                url: null
+                code: ''
+                reference: about-contact
+                cmsPage: null
+                replace: 0
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+    -
+        title: ADMISSIONS
+        nesting: null
+        type: url
+        url: /
+        code: ''
+        reference: null
+        cmsPage: null
+        replace: null
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+        items:
+            -
+                title: 'Admissions Welcome'
+                nesting: 0
+                type: static-page
+                url: null
+                code: ''
+                reference: admissions-admissions-welcome
+                cmsPage: null
+                replace: 0
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: 'Admissions Process'
+                nesting: 0
+                type: static-page
+                url: null
+                code: ''
+                reference: admissions-admissions-process
+                cmsPage: null
+                replace: 0
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: 'Tuition & Fees'
+                nesting: 0
+                type: static-page
+                url: null
+                code: ''
+                reference: admissions-tuition-fees
+                cmsPage: null
+                replace: 0
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: 'Information for International, Boarding & Transfer Students'
+                nesting: 0
+                type: static-page
+                url: null
+                code: ''
+                reference: admissions-information-international-boarding-transfer-students
+                cmsPage: null
+                replace: 0
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: 'Apply Now'
+                nesting: 0
+                type: static-page
+                url: null
+                code: ''
+                reference: admissions-apply-now
+                cmsPage: null
+                replace: 0
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: 'Early-Enrollment Incentives'
+                nesting: 0
+                type: static-page
+                url: null
+                code: ''
+                reference: admissions-early-enrollment-incentives
+                cmsPage: null
+                replace: 0
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: 'Touring Tuesdays'
+                nesting: 0
+                type: static-page
+                url: null
+                code: ''
+                reference: admissions-touring-tuesdays
+                cmsPage: null
+                replace: 0
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+    -
+        title: ACADEMICS
+        nesting: null
+        type: url
+        url: /
+        code: ''
+        reference: null
+        cmsPage: null
+        replace: null
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+        items:
+            -
+                title: 'Amity''s Pedagogy'
+                nesting: 0
+                type: static-page
+                url: null
+                code: ''
+                reference: academics-amitys-pedagogy
+                cmsPage: null
+                replace: 0
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: Elementary
+                nesting: 0
+                type: static-page
+                url: null
+                code: ''
+                reference: academics-elementary
+                cmsPage: null
+                replace: 0
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: 'Middle School'
+                nesting: 0
+                type: static-page
+                code: ''
+                reference: academics-middle-school
+                replace: 0
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+    -
+        title: EARLY-CHILDHOOD
+        nesting: null
+        type: url
+        url: /
+        code: ''
+        reference: null
+        cmsPage: null
+        replace: null
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: 'STUDENT LIFE'
+        nesting: null
+        type: url
+        url: /
+        code: ''
+        reference: null
+        cmsPage: null
+        replace: null
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: PARENTS
+        nesting: null
+        type: url
+        url: /
+        code: ''
+        reference: null
+        cmsPage: null
+        replace: null
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+name: Menu

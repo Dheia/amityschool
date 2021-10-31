@@ -1,0 +1,20 @@
+
+fields:    
+    section_title:
+        label: 'Manage authentication data'
+        type: section        
+    login:
+        label: 'Login (Username or email)'
+        span: left
+        type: text
+    pass:
+        label: 'Password'
+        span: right
+        type: password
+    contenta:
+        type: partial
+        path: $/pkurg/instagramgallery/partials/check.htm           
+            
+
+        
+        

@@ -1,0 +1,20 @@
+1635723391a:1:{s:21:"carousel/carousel.htm";a:5:{s:8:"fileName";s:21:"carousel/carousel.htm";s:7:"content";s:306:"<div class="slider-hero">
+    <div class="sliders-wrap columns1">
+        <div class="item">
+            <img src="{{'assets/images/slider1.jpg'|theme}}" alt="">
+        </div>
+        <div class="item">
+            <img src="{{'assets/images/slider2.jpg'|theme}}" alt="">
+        </div>
+    </div>
+</div>
+";s:5:"mtime";i:1635636991;s:6:"markup";s:305:"<div class="slider-hero">
+    <div class="sliders-wrap columns1">
+        <div class="item">
+            <img src="{{'assets/images/slider1.jpg'|theme}}" alt="">
+        </div>
+        <div class="item">
+            <img src="{{'assets/images/slider2.jpg'|theme}}" alt="">
+        </div>
+    </div>
+</div>";s:4:"code";N;}}

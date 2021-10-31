@@ -1,0 +1,17 @@
+plugin:
+    name: 'acte.carousel::lang.plugin.name'
+    description: 'acte.carousel::lang.plugin.description'
+    author: 'Acte Solutions'
+    icon: oc-icon-picture-o
+    homepage: ''
+permissions:
+    acte.carousel.manage_carousel:
+        tab: 'acte.carousel::lang.plugin.name'
+        label: 'acte.carousel::lang.plugin.name'
+navigation:
+    carousel:
+        label: 'acte.carousel::lang.plugin.name'
+        url: acte/carousel/carousel
+        icon: icon-picture-o
+        permissions:
+            - acte.carousel.manage_carousel

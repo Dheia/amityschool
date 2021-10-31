@@ -1,0 +1,260 @@
+url = "/"
+layout = "layout"
+title = "Home"
+meta_title = "Homepage"
+meta_description = "Homepage"
+
+[carousel]
+textWhite = "false"
+imageThumbMode = "crop"
+imageThumbQuality = 80
+imageThumbWidth = 640
+imageThumbHeight = 400
+maskIntensity = "slight"
+maskColor = "black"
+==
+<!--begin slider-->
+        {% partial "carousel/carousel.htm" %}
+        <!--end slider-->
+
+        <!--begin alumni dashboard-->
+        <div class="alumni-dashboard">
+            <div class="container">
+                <div class="title title-dashboard type1">
+                    <h3 class="heading-light no-margin"> My Sayidan Alumni Dashboard </h3>
+                </div>
+                <div class="area-content">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="icon mail-icon"></div>
+                            <div class="box-content">
+                                <h4 class="heading-regular"> Checking Message </h4>
+                                <p class="text-content text-margin text-light ">
+                                    Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="icon account-icon"></div>
+                            <div class="box-content">
+                                <h4 class="heading-regular"> Update My Information </h4>
+                                <p class="text-content text-margin text-light">
+                                    Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="icon group-icon"></div>
+                            <div class="box-content">
+                                <h4 class="heading-regular"> Join with Alumni Forum </h4>
+                                <p class="text-content text-margin text-light">
+                                    Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="icon search-icon"></div>
+                            <div class="box-content">
+                                <h4 class="heading-regular"> Search Alumni Directory </h4>
+                                <p class="text-content text-margin text-light">
+                                    Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end alumni dashboard-->
+<!--begin alumni interview-->
+<div class="alumni-interview">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-12 col-xs-12 pull-right">
+                <div class="interview-wrapper">
+                    <div class="interview-title">
+                        <h1 class="heading-light text-capitalize">OUR MISSION</h1>
+                    </div>
+                    <div class="interview-desc text-left">
+                        <p class="text-light" style="text-align: justify">
+                            Brooklyn Amity School provides a PreK-3-Gr. 12, co-ed, college-preparatory educational program through a
+                            well-balanced curriculum emphasizing science, technology, engineering, the arts, and mathematics (STEAM) and the integration of
+                            athletics & project-based (& blended) learning. Brooklyn Amity also provides a safe learning environment that cultivates respect of self & others.
+                        </p>
+                    </div>
+                    <div class="interview-see-story">
+                        <a href="./story-single.html" class="see-story bnt text-uppercase">APPLY NOW</a>
+                        <a href="./story-single.html" class="see-story bnt text-uppercase">PRE-K FOR ALL</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!--end alumni interview-->
+        <!--begin block links-->
+        <div class="block-links">
+            <div class="container">
+                <div class="row">
+                    {% partial 'blog/homepost.htm' %}
+                    <div class="block-career col-md-4 col-sm-12 col-xs-12">
+                        <div class="column-career">
+                            <div class="title-links">
+                                <h3 class="heading-regular">Career Opportunity</h3>
+                            </div>
+                            <div class="career-content">
+                                <div class="company-item clearfix">
+                                    <div class="company-logo">
+                                        <img src="{{'assets/images/company-logo1.png'|theme}}" alt="">
+                                    </div>
+                                    <div class="company-desc-wrapper">
+                                        <div class="company-desc">
+                                            <div class="company-title"><h6 class="heading-regular"><a href="#">Creative Director at StartTrek Inc</a></h6></div>
+                                            <div class="company-excerpt">
+                                                <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="company-item clearfix">
+                                    <div class="company-logo">
+                                        <img src="{{'assets/images/company-logo2.png'|theme}}" alt="">
+                                    </div>
+                                    <div class="company-desc-wrapper">
+                                        <div class="company-desc">
+                                            <div class="company-title"><h6 class="heading-regular"><a href="#">Chief Technologies Officer at Microtek Inc</a></h6></div>
+                                            <div class="company-excerpt">
+                                                <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="company-item clearfix">
+                                    <div class="company-logo">
+                                        <img src="{{'assets/images/company-logo3.png'|theme}}" alt="">
+                                    </div>
+                                    <div class="company-desc-wrapper">
+                                        <div class="company-desc">
+                                            <div class="company-title"><h6 class="heading-regular"><a href="#">Senior UI/UX Manager at Kidos Inc</a></h6></div>
+                                            <div class="company-excerpt">
+                                                <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="company-item clearfix">
+                                    <div class="company-logo">
+                                        <img src="{{'assets/images/company-logo4.png'|theme}}" alt="">
+                                    </div>
+                                    <div class="company-desc-wrapper">
+                                        <div class="company-desc">
+                                            <div class="company-title"><h6 class="heading-regular"><a href="#">Finance Officer at  Atomic Inc</a></h6></div>
+                                            <div class="company-excerpt">
+                                                <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="view-all"><a href="./career-opportunity.html">View All Career Opportunity</a></div>
+                        </div>
+
+                    </div>
+                    {% partial 'event/home-event.htm' %}
+                </div>
+            </div>
+        </div>
+        <!--end block links-->
+
+        <!--begin alumni interview-->
+        <div class="container-fluid custom-w">
+            <div id="second-row" class="rows">
+                <div id="second-row-inner" class="row-inner cf">
+                    <p>Graduates of Brooklyn Amity School are global thinkers who contribute to the community as socially responsible and educated members of society.</p>
+                    <div id="left-column" class="">
+                        <div class="grades img1">
+                            <div class="content">
+                                <span class="num">100%</span>
+                                <span class="text">College Acceptance Rate</span>
+                            </div>
+                        </div>
+                        <div class="grades img2">
+                            <div class="content">
+                                <span class="num">Affordable</span>
+                                <span class="text">Private School Tuition</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div id="center-column" class="">
+                        <div class="grades img3">
+                            <div class="content">
+                                <span class="text">Founded</span>
+                                <span class="num">1999</span>
+                            </div>
+                        </div>
+                        <div class="grades img4">
+                            <div class="content">
+                                <span class="num">PreK3 - 12</span>
+                                <span class="text">Grades</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="right-column" class="">
+                        <div class="grades img5">
+                            <div class="content">
+                                <span class="num">9:1</span>
+                                <span class="text">Student to Teacher Ratio</span>
+                            </div>
+                        </div>
+                        <div class="grades img6">
+
+                            <div class="content">
+                                <span class="num">PreK-3</span>
+                                <span class="text">&amp; UPK Available</span>
+                            </div>
+                        </div>
+                        <div class="grades img7">
+                            <div class="content">
+                                <span class="num">200<sup>+</sup></span>
+                                <span class="text">Students</span>
+                            </div>
+                        </div>
+                        <div class="grades img8">
+                            <div class="content">
+                                <span class="num">AP</span>
+                                <span class="text">Courses </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end alumni interview-->
+<!--begin instagream-->
+<div class="instagream">
+    <div class="instagram-feed clearfix">
+        <ul class="list-item no-margin">
+            <li class="no-padding no-margin no-style" style="width: 12%"><a href="#"><img  src="images/ins-img1.jpg" alt=""></a></li>
+            <li class="no-padding no-margin no-style" style="width: 19%"><a href="#"><img  src="images/ins-img2.jpg" alt=""></a></li>
+            <li class="no-padding no-margin no-style" style="width: 19%"><a href="#"><img  src="images/ins-img3.jpg" alt=""></a></li>
+            <li class="no-padding no-margin no-style" style="width: 19%"><a href="#"><img  src="images/ins-img4.jpg" alt=""></a></li>
+            <li class="no-padding no-margin no-style" style="width: 19%"><a href="#"><img  src="images/ins-img5.jpg" alt=""></a></li>
+            <li class="no-padding no-margin no-style" style="width: 12%"><a href="#"><img  src="images/ins-img6.jpg" alt=""></a></li>
+        </ul>
+        <div class="instagram-feed-user text-center">
+            <div class="user-wrapper">
+                <span class="icon-instagram"><i class="fa fa-instagram" aria-hidden="true"></i></span>
+                <span class="name-user">@AmityVoice</span>
+            </div>
+        </div>
+    </div>
+</div>
+<!--end instagream-->
+
+<!--begin newsletter-->
+    <div class="container-fluid">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3029.9529801459853!2d-73.93416348459886!3d40.58679327934571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2445e23374a47%3A0xb26a19952eaa6ab2!2sBrooklyn%20Amity%20School!5e0!3m2!1str!2str!4v1635703845679!5m2!1str!2str" height="600" style="border:0; width: 100%" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+<!--end newsletter-->

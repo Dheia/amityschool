@@ -1,0 +1,1 @@
+1635672034a:5:{s:4:"name";s:33:"system::lang.event_log.menu_label";s:4:"form";s:44:"~/modules/system/models/eventlog/fields.yaml";s:10:"modelClass";s:22:"System\Models\EventLog";s:15:"defaultRedirect";s:16:"system/eventlogs";s:7:"preview";a:1:{s:5:"title";s:36:"system::lang.event_log.preview_title";}}

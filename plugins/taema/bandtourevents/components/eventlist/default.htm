@@ -1,0 +1,86 @@
+<!--{% if __SELF__.events is not empty %}
+<table class="table is-fullwidth is-hoverable">
+    <thead>
+        <tr>
+            <th>Date</th>
+            <th>Venue</th>
+            <th>Location</th>
+            <th>&nbsp;</th>
+        </tr>
+    </thead>
+    <tbody>
+    {% for event in __SELF__.events %}
+        <tr>
+            <td>
+                <a href="{{ __SELF__.property('eventPage') | page({ id: event.id }) }}">{{ event.datetime }}</a>
+            </td>
+            <td>{{ event.venue }}</td>
+            <td>{{ event.location }}</td>
+            <td>
+                {% if event.tickets_url is not empty %}
+                <a href="{{ event.tickets_url}}" class="icon" title="Get tickets for this event">
+                    <i class="fas fa-ticket-alt"></i>
+                </a>
+                {% endif %}
+                {% if event.facebook_url is not empty %}
+                <a href="{{ event.facebook_url }}" class="icon" title="Go to Facebook event of this event">
+                    <i class="fab fa-facebook-square"></i>
+                </a>
+                {% endif %}
+                {% if event.youtube_url is not empty %}
+                <a href="{{ event.youtube_url }}" class="icon" title="Go to youtube video of this event">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                {% endif %}
+            </td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
+{% else %}
+<p>No events to show</p>
+{% endif %}
+-->
+
+{% if __SELF__.events is not empty %}
+<div class="block-event-calendar col-md-4 col-sm-12 col-xs-12">
+    <div class="column-calendar">
+        <div class="title-links">
+            <h3 class="heading-regular">Event Calendar</h3>
+        </div>
+        <div class="content-calendar bg-calendar no-padding">
+            <div class="top-section">
+                <h6 class="heading-light">Upcoming Events</h6>
+                <span class="icon calendar-icon pull-right"></span>
+            </div>
+            <div class="list-view">
+                {% for event in __SELF__.events %}
+                <div class="view-item">
+                    <div class="date-item">
+                        <span class="dates text-light">{{ event.datetime|date("D")}}</span>
+                        <span class="day text-bold color-theme">{{ event.datetime|date('d')}}</span>
+                        <span class="month text-light">{{ event.datetime|date("M")}}</span>
+                    </div>
+                    <div class="date-desc-wrapper">
+                        <div class="date-desc">
+                            <div class="date-title"><h6 class="heading-regular">{{ event.venue }}</h6></div>
+                            <div class="date-excerpt">
+                                <p>Organizer: Brooklyn Amity School</p>
+                            </div>
+                            <div class="place">
+                                <span class="icon map-icon"></span>
+                                <span class="text-place">{{ event.location }}</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="view-all"><a href="./programs-events.html">View All Events</a></div>
+    </div>
+</div>
+{% else %}
+<p>No events to show</p>
+{% endif %}
+

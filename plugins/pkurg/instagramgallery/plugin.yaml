@@ -1,0 +1,6 @@
+plugin:
+    name: 'pkurg.instagramgallery::lang.plugin.name'
+    description: 'pkurg.instagramgallery::lang.plugin.description'
+    author: Vladimir
+    icon: oc-icon-instagram
+    homepage: ''

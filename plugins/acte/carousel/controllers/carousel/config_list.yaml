@@ -1,0 +1,12 @@
+list: $/acte/carousel/models/carousel/columns.yaml
+modelClass: Acte\Carousel\Models\Carousel
+title: Carousel
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'acte/carousel/carousel/update/:id'

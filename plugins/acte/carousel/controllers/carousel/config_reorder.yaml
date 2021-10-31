@@ -1,0 +1,4 @@
+title: Carousel
+modelClass: Acte\Carousel\Models\Carousel
+toolbar:
+    buttons: reorder_toolbar

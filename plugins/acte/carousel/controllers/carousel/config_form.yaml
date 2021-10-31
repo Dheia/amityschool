@@ -1,0 +1,10 @@
+name: Carousel
+form: $/acte/carousel/models/carousel/fields.yaml
+modelClass: Acte\Carousel\Models\Carousel
+defaultRedirect: acte/carousel/carousel
+create:
+    redirect: 'acte/carousel/carousel/update/:id'
+    redirectClose: acte/carousel/carousel
+update:
+    redirect: acte/carousel/carousel
+    redirectClose: acte/carousel/carousel

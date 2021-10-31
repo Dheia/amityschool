@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Instagram Feed
+
+# Model Form Field configuration
+form: $/pkurg/instagramgallery/models/instagramfeed/fields.yaml
+
+# Model Class name
+modelClass: Pkurg\InstagramGallery\Models\InstagramFeed
+
+# Default redirect location
+defaultRedirect: pkurg/instagramgallery/instagramfeed
+
+# Create page
+create:
+    title: Create Instagram Feed
+    redirect: pkurg/instagramgallery/instagramfeed/update/:id
+    redirectClose: pkurg/instagramgallery/instagramfeed
+
+# Update page
+update:
+    title: Edit Instagram Feed
+    redirect: pkurg/instagramgallery/instagramfeed
+    redirectClose: pkurg/instagramgallery/instagramfeed
+
+# Preview page
+preview:
+    title: Preview Instagram Feed

@@ -1,0 +1,24 @@
+static-pages:
+    about:
+        employment-opportunities: {  }
+        calendar: {  }
+        covid-19-response: {  }
+        mission-philosophy: {  }
+        amity-glance: {  }
+        about-faculty-staff-directory: {  }
+        about-photo-gallery: {  }
+        about-video-gallery: {  }
+        about-school-expansion: {  }
+        about-contact: {  }
+    admissions:
+        admissions-admissions-welcome: {  }
+        admissions-admissions-process: {  }
+        admissions-tuition-fees: {  }
+        admissions-information-international-boarding-transfer-students: {  }
+        admissions-apply-now: {  }
+        admissions-early-enrollment-incentives: {  }
+        admissions-touring-tuesdays: {  }
+    academics:
+        academics-amitys-pedagogy: {  }
+        academics-elementary: {  }
+        academics-middle-school: {  }
