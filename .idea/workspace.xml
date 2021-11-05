@@ -2,68 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3225d384-f7fa-4a2a-8049-409fbe996932" name="Changes" comment="october files">
-      <change afterPath="$PROJECT_DIR$/themes/amityschool/pages/apply-now.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/amityschool/partials/apply-now/apply-now.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/amityschool/partials/instagram/instagram.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/amityschool/partials/interview/interview.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/martin/forms/components/genericform/default.htm" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/martin/forms/components/genericform/default.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/pkurg/instagramgallery/components/instagramfeed/default.htm" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/pkurg/instagramgallery/components/instagramfeed/default.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/cms/cache/20/63/home.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/cache/20/63/home.htm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/10/ad/10ad6927645347792fde57d9e25690600f705cc4" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/10/ad/10ad6927645347792fde57d9e25690600f705cc4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/11/de/11de31e1eabb2682cf62ee9c9ccb0630f1019006" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/11/de/11de31e1eabb2682cf62ee9c9ccb0630f1019006" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/1d/da/1ddade07de3685b0ad4362f4c51afda397ed236d" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/1d/da/1ddade07de3685b0ad4362f4c51afda397ed236d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/1e/cd/1ecdc2ee84ebddd4f29ef3c8d436acd17a26fca2" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/1e/cd/1ecdc2ee84ebddd4f29ef3c8d436acd17a26fca2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/22/43/2243f500ae1632e1e609a9d4d08e7bad65800071" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/22/43/2243f500ae1632e1e609a9d4d08e7bad65800071" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/24/3b/243bde3d6612c4e89c14e67a76e7ca0f93b28a8e" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/24/3b/243bde3d6612c4e89c14e67a76e7ca0f93b28a8e" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/24/7c/247cd477bc7951ae69988a674a979a8afbeaa3f1" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/24/7c/247cd477bc7951ae69988a674a979a8afbeaa3f1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/39/8d/398d6f0c002076ac927dbc21653f450acc8a82e9" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/39/8d/398d6f0c002076ac927dbc21653f450acc8a82e9" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/3e/1e/3e1eacd47ac245cc09214f18464eb2264ec97d81" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/3e/1e/3e1eacd47ac245cc09214f18464eb2264ec97d81" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/40/bd/40bd1942992e020a15035a7e5013e1526b1f1828" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/40/bd/40bd1942992e020a15035a7e5013e1526b1f1828" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/43/72/4372322b494dcd964472bd43a5e0c342beb54a59" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/43/72/4372322b494dcd964472bd43a5e0c342beb54a59" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/5f/35/5f35890cf1d922705a9a179cbc7175eec468912a" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/5f/35/5f35890cf1d922705a9a179cbc7175eec468912a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/62/90/62907659eab51713d6a86874f91bd78f5e09d5d3" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/62/90/62907659eab51713d6a86874f91bd78f5e09d5d3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/66/65/666582ffea28796aac87443dbbc6420b7c6df7cd" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/66/65/666582ffea28796aac87443dbbc6420b7c6df7cd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/66/9e/669e51887f4f9ed9ac80564da7c392832801e4fa" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/66/9e/669e51887f4f9ed9ac80564da7c392832801e4fa" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/6e/74/6e74cee9847e4866f02d1ce46bdd16b8207bd65b" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/6e/74/6e74cee9847e4866f02d1ce46bdd16b8207bd65b" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/6e/dd/6eddf638eff3d2399227ee5d48f3b8b5d07a66e7" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/6e/dd/6eddf638eff3d2399227ee5d48f3b8b5d07a66e7" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/6f/01/6f0172cc02d3189d4138b86f1b96b3662bf9f4f5" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/6f/01/6f0172cc02d3189d4138b86f1b96b3662bf9f4f5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/72/4d/724d64623b82cdd367a46a1a3611b8fce75faedf" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/72/4d/724d64623b82cdd367a46a1a3611b8fce75faedf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/76/3e/763e82d737054583c9561a796d27b7313787af74" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/76/3e/763e82d737054583c9561a796d27b7313787af74" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/77/61/77616e1c5e0d202cb4cf522bddafaebf56f27660" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/77/61/77616e1c5e0d202cb4cf522bddafaebf56f27660" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/7e/a5/7ea581bcd7e513154535eaf71e40f31fa5c65b41" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/7e/a5/7ea581bcd7e513154535eaf71e40f31fa5c65b41" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/80/2c/802cf7ea097a3d7017b658bc32af62be4cee4ab8" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/80/2c/802cf7ea097a3d7017b658bc32af62be4cee4ab8" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/83/d2/83d2b53f101eb0d6dc5baf3625ec8b1002c8fae8" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/83/d2/83d2b53f101eb0d6dc5baf3625ec8b1002c8fae8" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/87/27/872763bcff51c798d08edc4b1277e5adea6a6ebb" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/87/27/872763bcff51c798d08edc4b1277e5adea6a6ebb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/87/ec/87ec7356530f9d235defe24340982a5c196ad55d" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/87/ec/87ec7356530f9d235defe24340982a5c196ad55d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/92/a3/92a309096d6ebc14b272c877535471c1d8b9d967" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/93/77/93770ef1c383366d6b80812f1742561727da5c26" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/93/77/93770ef1c383366d6b80812f1742561727da5c26" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/94/ed/94ed5f97d0a7536b3ce12715aa912a7ab4fbdf55" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/94/ed/94ed5f97d0a7536b3ce12715aa912a7ab4fbdf55" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/97/37/9737833e426f53b3dcb4d98fdcb68c76762765de" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/97/37/9737833e426f53b3dcb4d98fdcb68c76762765de" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/9c/21/9c21476e2d10046905a7d0ced535ed6f4dfc8d8b" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/9c/21/9c21476e2d10046905a7d0ced535ed6f4dfc8d8b" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/9c/46/9c46924ead37c2f81c4cca8cf51e41f6148fdc8a" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/9c/46/9c46924ead37c2f81c4cca8cf51e41f6148fdc8a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/9d/6f/9d6f9a5993db0e386f0fd5a684c050353f352ba1" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/9d/6f/9d6f9a5993db0e386f0fd5a684c050353f352ba1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/a0/c9/a0c910eb995ad1e9281e5bb05187281e039e242f" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/a0/c9/a0c910eb995ad1e9281e5bb05187281e039e242f" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/b1/b6/b1b6b61b6cd58fcbec08f9d00687d524901e8a6d" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/b1/b6/b1b6b61b6cd58fcbec08f9d00687d524901e8a6d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/b2/66/b26639c9e5f589294e39d90700b88dcbbfac9c6d" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/b2/66/b26639c9e5f589294e39d90700b88dcbbfac9c6d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/b3/28/b328abc2707eb5e6709eca1c6209e72cd1f7ab08" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/b3/28/b328abc2707eb5e6709eca1c6209e72cd1f7ab08" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/b4/27/b427d96ddad9820e61b990387876361e91021a3f" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/b4/27/b427d96ddad9820e61b990387876361e91021a3f" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/b9/5a/b95a6deb6f8ae1e51c9c326f201ad778d79ade39" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/b9/5a/b95a6deb6f8ae1e51c9c326f201ad778d79ade39" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/bb/80/bb807fd286b715d47172976a3d1d1dd94f78ceda" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/bb/80/bb807fd286b715d47172976a3d1d1dd94f78ceda" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/bb/b7/bbb79e45e543c9bd878c8ac2a2a6c5593025b496" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/bb/b7/bbb79e45e543c9bd878c8ac2a2a6c5593025b496" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/c8/15/c81559ec3d741fd4ea2e720774589cdc307c12e3" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/c8/15/c81559ec3d741fd4ea2e720774589cdc307c12e3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/e7/6b/e76b1bdd6f25b9abe78fa88ef8c27b2f845dac12" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/e7/6b/e76b1bdd6f25b9abe78fa88ef8c27b2f845dac12" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/ed/5d/ed5d7fb64e0284e0245387b1f2c1b01b52223bf5" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/ed/5d/ed5d7fb64e0284e0245387b1f2c1b01b52223bf5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/ee/2f/ee2f842aa7bb1f53edf3a2ed2c09a1807ffa6c90" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/ee/2f/ee2f842aa7bb1f53edf3a2ed2c09a1807ffa6c90" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/f0/c3/f0c38e96da118a625d0ce3b7ef1c3553eaef71c9" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/f0/c3/f0c38e96da118a625d0ce3b7ef1c3553eaef71c9" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/f0/f4/f0f4ccb68aa8e0bb3260337b999dc3b32783efa6" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/f0/f4/f0f4ccb68aa8e0bb3260337b999dc3b32783efa6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/f2/7b/f27b87febbcbf7e91657efddef4e32557d1ec24b" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/f2/7b/f27b87febbcbf7e91657efddef4e32557d1ec24b" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/f3/31/f331167c8e780c2e1eaea2ed8e8d9b729e14dbc4" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/f3/31/f331167c8e780c2e1eaea2ed8e8d9b729e14dbc4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/f4/25/f42507af4f9e811c386837bfbad5bdb2a6f8d229" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/f4/25/f42507af4f9e811c386837bfbad5bdb2a6f8d229" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/fc/8f/fc8ff0e63985fd8b211685db2899666128db5d6b" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/fc/8f/fc8ff0e63985fd8b211685db2899666128db5d6b" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/classes.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/classes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/yD5dSuBP4uthZCinhujhVFq9O0SmA6M6WF5JsJvX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/logs/system.log" beforeDir="false" afterPath="$PROJECT_DIR$/storage/logs/system.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/amityschool/pages/home.htm" beforeDir="false" afterPath="$PROJECT_DIR$/themes/amityschool/pages/home.htm" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -233,7 +171,16 @@
       <workItem from="1635525883142" duration="532000" />
       <workItem from="1635527238527" duration="31434000" />
       <workItem from="1635711844494" duration="3472000" />
+      <workItem from="1636144059553" duration="257000" />
     </task>
+    <task id="LOCAL-00001" summary="october files">
+      <created>1636144225825</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1636144225825</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
