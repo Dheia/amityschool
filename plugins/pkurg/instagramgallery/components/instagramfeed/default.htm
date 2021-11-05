@@ -9,11 +9,11 @@
 	border-radius: 5px;
 	margin: 5px;
 }
-.insta-text { 
+.insta-text {
 	padding: 10%;
 	color: white;
 	font-size: {{__SELF__.fontsize}}px
-} 
+}
 .insta-info {
 	height: 100% !important;
 	width: 100% !important;
@@ -32,7 +32,7 @@
 .insta-text .insta-caption {
 	height: 8em;
 	text-overflow: ellipsis;
-	overflow: hidden; 
+	overflow: hidden;
 	white-space: wrap;
 }
 </style>
@@ -47,13 +47,13 @@
 <div id="loader{{__SELF__.id}}" style="width: 100%; text-align: center;">
 	<svg  style="filter: invert(42%); height: 60px;"  version="1.1" id="L4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 0 0" xml:space="preserve">
 		<circle fill="#fff" stroke="none" cx="6" cy="50" r="6">
-			<animate attributeName="opacity" dur="1s" values="0;1;0" repeatCount="indefinite" begin="0.1"></animate>    
+			<animate attributeName="opacity" dur="1s" values="0;1;0" repeatCount="indefinite" begin="0.1"></animate>
 		</circle>
 		<circle fill="#fff" stroke="none" cx="26" cy="50" r="6">
-			<animate attributeName="opacity" dur="1s" values="0;1;0" repeatCount="indefinite" begin="0.2"></animate>       
+			<animate attributeName="opacity" dur="1s" values="0;1;0" repeatCount="indefinite" begin="0.2"></animate>
 		</circle>
 		<circle fill="#fff" stroke="none" cx="46" cy="50" r="6">
-			<animate attributeName="opacity" dur="1s" values="0;1;0" repeatCount="indefinite" begin="0.3"></animate>     
+			<animate attributeName="opacity" dur="1s" values="0;1;0" repeatCount="indefinite" begin="0.3"></animate>
 		</circle>
 	</svg>
 </div>
@@ -61,13 +61,13 @@
 	var xhttp = new XMLHttpRequest();
 	xhttp.onreadystatechange = function() {
 		if (this.readyState == 4 && this.status == 200) {
-									
+
 			document.getElementById("loader{{__SELF__.id}}").style.visibility = 'hidden';
 			document.getElementById("{{__SELF__.id}}").innerHTML = JSON.parse(this.responseText).html;
 
 		}
 	};
-	
+
 	xhttp.open("GET", "{{__SELF__.burl('pkurg/instagramgallery/instagramfeed/updatefeed')}}?id={{__SELF__.id}}&user={{__SELF__.user}}&postcount={{__SELF__.postcount}}&period={{__SELF__.period}}&key={{__SELF__.key}}&tkey={{__SELF__.tkey}}&propkey={{__SELF__.propkey}}&size={{__SELF__.img_size_index}}", true);
 	xhttp.send();
 </script>
@@ -81,9 +81,9 @@
 	<a href="{{ post.link }}">
 
 		<div class="insta-thumb" style="background-image: url({{ post.img }});" >
-			
+
 			<div class="insta-info">
-				
+
 				<div class="insta-text">
 					<p><svg width="24" height="24" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Instagram logo.">
 						<path d="M15.0049 0C8.74253 0 6.91103 0.00646208 6.55502 0.036003C5.26988 0.142858 4.47019 0.34526 3.59896 0.779143C2.92755 1.11263 2.39804 1.4992 1.87544 2.0411C0.923698 3.02933 0.346883 4.24513 0.138077 5.69033C0.0365572 6.39193 0.00702432 6.53502 0.00102545 10.1187C-0.00128181 11.3133 0.00102545 12.8854 0.00102545 14.9941C0.00102545 21.2531 0.00794722 23.0833 0.0379416 23.4387C0.141768 24.6896 0.337885 25.4765 0.753192 26.3374C1.54689 27.9852 3.06276 29.2222 4.84858 29.6838C5.46692 29.8431 6.14987 29.9308 7.02663 29.9723C7.3981 29.9885 11.1843 30 14.9728 30C18.7613 30 22.5499 29.9954 22.9121 29.9769C23.9273 29.9292 24.5168 29.85 25.1686 29.6815C26.966 29.2176 28.4541 27.9991 29.264 26.3282C29.6712 25.4881 29.8777 24.6711 29.9712 23.4855C29.9915 23.227 30 19.1058 30 14.9902C30 10.8738 29.9908 6.76026 29.9705 6.50178C29.8759 5.29706 29.6694 4.487 29.249 3.63077C28.9041 2.92986 28.521 2.40643 27.965 1.87124C26.9726 0.923155 25.759 0.346183 24.3128 0.13755C23.6121 0.0362338 23.4725 0.0062313 19.8871 0H15.0049Z" fill="url(#paint0_radial_instagram)"></path>
@@ -104,7 +104,7 @@
 						</defs>
 					</svg></p>
 					<p class="insta-caption">
-						{{ post.caption|slice(0, __SELF__.textlen) ~ '...' }}							
+						{{ post.caption|slice(0, __SELF__.textlen) ~ '...' }}
 					</p>
 				</div>
 
@@ -124,7 +124,7 @@
 	var xhttp = new XMLHttpRequest();
 	xhttp.onreadystatechange = function() {
 		if (this.readyState == 4 && this.status == 200) {
-									
+
 			console.log('feed updated');
 		}
 	};

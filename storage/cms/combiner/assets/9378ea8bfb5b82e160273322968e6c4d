@@ -1,1 +1,0 @@
-Vue.component('backend-component-dropdown', window.VueMultiselect.default);
