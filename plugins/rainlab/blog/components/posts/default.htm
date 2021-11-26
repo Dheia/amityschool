@@ -1,5 +1,5 @@
 {% set posts = __SELF__.posts %}
-<div class="block-news col-md-4 col-sm-12 col-xs-12">
+<div class="block-news col-md-6 col-sm-12 col-xs-12">
     <div class="column-news">
         <div class="title-links">
             <h3 class="heading-regular">Latest News</h3>
@@ -8,11 +8,11 @@
             {% for post in posts %}
             <div class="post-item clearfix ">
                 <div class="image-frame post-photo-wrapper">
-                    <a href="{{ post.url }}"> <img src="{% for image in post.featured_images %}{{image.path}}{% endfor %}" alt=""></a>
+                    <a href="{{ post.slug }}"> <img src="{% for image in post.featured_images %}{{image.path}}{% endfor %}" alt=""></a>
                 </div>
                 <div class="post-desc-wrapper">
                     <div class="post-desc">
-                        <div class="post-title"><h6 class="heading-regular"><a href="#">{{ post.title }} </a></h6></div>
+                        <div class="post-title"><h6 class="heading-regular"><a href="{{ post.slug }}">{{ post.title }} </a></h6></div>
                         <div class="post-excerpt">
                             <p>{{ post.summary|raw }}</p>
                         </div>

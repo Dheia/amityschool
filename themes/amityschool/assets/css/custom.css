@@ -364,6 +364,10 @@
     color: #ffffff;
     background-color: #8a0800;
 }
+.post-wrapper {
+    height: 480px;
+    overflow: scroll;
+}
 
 
 
