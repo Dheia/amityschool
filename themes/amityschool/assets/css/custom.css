@@ -345,7 +345,8 @@
 }
 @media (min-width: 992px){
     .alumni-interview {
-        background: url(/storage/app/media/gorsel.png) no-repeat;
+        background: url(../images/amity3.jpg) no-repeat;
+        background-position: right;
     }
 }
 .alumni-interview .interview-wrapper .interview-desc p{
