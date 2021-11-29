@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3225d384-f7fa-4a2a-8049-409fbe996932" name="Changes" comment="october files">
-      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +187,7 @@
       <workItem from="1637095450008" duration="2225000" />
       <workItem from="1637224662989" duration="164000" />
       <workItem from="1637225065355" duration="345000" />
-      <workItem from="1637954206185" duration="3746000" />
+      <workItem from="1637954206185" duration="4050000" />
     </task>
     <task id="LOCAL-00001" summary="october files">
       <created>1636144225825</created>
@@ -217,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637973225749</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="october files">
+      <created>1638181564965</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1638181564965</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
