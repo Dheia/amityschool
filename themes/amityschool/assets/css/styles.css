@@ -115,7 +115,7 @@ a:hover, a:active, a:focus {
 }
 
 .color-theme {
-  color: #f7ca18;
+  color: #8a0800;
 }
 
 .bg-color-theme,
@@ -646,7 +646,7 @@ a:hover, a:active, a:focus {
    7. Footer
 *************************************/
 .footer-wrapper {
-  background-color: #1a265c;
+  background-color: #880701;
   padding-bottom: 24px;
   width: 100%;
   float: left;
@@ -1500,7 +1500,7 @@ a:hover, a:active, a:focus {
 .instagream .instagram-feed-user {
   width: 100%;
   float: left;
-  background-color: #1a265c;
+  background-color: #880701;
   margin-top: -5px;
   height: 60px;
   line-height: 57px;
